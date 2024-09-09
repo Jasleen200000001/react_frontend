@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('./assets/font/FoundersGrotesk-Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('./assets/font/NeueMontreal-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Optionally, you can apply the font globally here */
+
+
+*{
+  color: #212121;
+}
+
